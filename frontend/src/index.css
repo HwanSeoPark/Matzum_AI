@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-page: #eef2f7;
+  --bg-card: #ffffff;
+  --bg-subtle: #f1f5f9;
+  --border: #cbd5e1;
+  --text: #0f172a;
+  --text-muted: #64748b;
+  --accent: #2563eb;
+  --danger: #dc2626;
+  --diff-removed: #b91c1c;
+  --diff-added-bg: #bbf7d0;
+  --style-accent: #4f46e5;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: var(--bg-page);
+  color: var(--text);
+  min-height: 100vh;
+}
