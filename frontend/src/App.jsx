@@ -95,7 +95,7 @@ export default function App() {
           </label>
         ) : (
           <label className="paste-label">
-            <span>원문 입력</span>
+            <span>텍스트 입력</span>
             <textarea
               value={pasteText}
               onChange={(e) => setPasteText(e.target.value)}
